@@ -5,3 +5,5 @@ def test_soma():
 
 def test_subtracao():
     assert subtracao(3, 3) == 0
+
+
