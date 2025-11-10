@@ -7,6 +7,6 @@ def subtracao(a, b):
 def py3_13func(valor): #função que não funciona no python 3.10
     match valor:
         case [1, 2, *rest]:
-            return "começa com 1,2 e o resto é {rest}"
+            return f"começa com 1,2 e o resto é {rest}"
         case _:
             return "outro formato"
